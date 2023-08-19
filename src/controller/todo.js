@@ -16,7 +16,7 @@ const todoController = {
             return res.status(200).json({success: true, data: todos});
         }
         else{
-            return res.status(404).json({success: false, data: "No  To item Found with this ID"});
+            return res.status(404).json({success: false, data: "No To-do item Found with this ID"});
         }
     },
     
